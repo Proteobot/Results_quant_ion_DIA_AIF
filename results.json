@@ -1,5 +1,5 @@
 [
-    {
+  {
     "id":"MaxQuant__20240122_180731",
     "software_name":"MaxQuant",
     "software_version":"1.5.3.30",
@@ -20,9 +20,9 @@
     "intermediate_hash":"0f03bdfc8011649377467d4ce7e4091324c629ff",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":5.0,
+    "max_mods":5,
     "min_precursor_charge":null,
-    "max_precursor_charge":7.0,
+    "max_precursor_charge":7,
     "median_abs_epsilon":0.3223912355,
     "nr_prec":44686,
     "is_temporary":false,
@@ -83,6 +83,118 @@
         "CV_q95":0.6058360224
       }
     },
-    "weighted_sum":0.3223912355
+    "weighted_sum":0.3223912355,
+    "color":null,
+    "hover_text":null,
+    "scatter_size":null,
+    "comments":null,
+    "proteobench_version":null,
+    "scan_window":null,
+    "quantification_method_DIANN":null,
+    "second_pass":null,
+    "protein_inference":null,
+    "predictors_library":null,
+    "submission_comments":null
+  },
+  {
+    "id":"DIA-NN_20241009_165616",
+    "software_name":"DIA-NN",
+    "software_version":"1.9.1",
+    "search_engine_version":"1.9.1",
+    "search_engine":"DIA-NN",
+    "ident_fdr_psm":null,
+    "ident_fdr_peptide":0.01,
+    "ident_fdr_protein":0.01,
+    "enable_match_between_runs":true,
+    "precursor_mass_tolerance":"14.6017 ppm",
+    "precursor_mass_tolerance_unit":null,
+    "fragment_mass_tolerance":"14.6017 ppm",
+    "fragment_mass_tolerance_unit":null,
+    "enzyme":"K*,R*",
+    "allowed_miscleavages":1,
+    "min_peptide_length":7,
+    "max_peptide_length":30,
+    "intermediate_hash":"eddd2de959ba837238a44fcf384dcacda71fdbfb",
+    "fixed_mods":"unimod4",
+    "variable_mods":"",
+    "max_mods":null,
+    "min_precursor_charge":2,
+    "max_precursor_charge":3,
+    "median_abs_epsilon":0.364805266,
+    "nr_prec":77538,
+    "is_temporary":false,
+    "old_new":"new",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.2379064244,
+        "variance_epsilon":0.3267391279,
+        "nr_prec":46854,
+        "CV_median":0.3247440817,
+        "CV_q90":0.5245601099,
+        "CV_q75":0.4119594315,
+        "CV_q95":0.6058111897
+      },
+      "5":{
+        "median_abs_epsilon":0.2931979152,
+        "variance_epsilon":0.4572263019,
+        "nr_prec":54605,
+        "CV_median":0.328376879,
+        "CV_q90":0.5477202429,
+        "CV_q75":0.4228441191,
+        "CV_q95":0.6385165691
+      },
+      "4":{
+        "median_abs_epsilon":0.3541956463,
+        "variance_epsilon":0.6123793674,
+        "nr_prec":61267,
+        "CV_median":0.3294257788,
+        "CV_q90":0.5576719597,
+        "CV_q75":0.428011985,
+        "CV_q95":0.6536075756
+      },
+      "3":{
+        "median_abs_epsilon":0.364805266,
+        "variance_epsilon":0.6142660174,
+        "nr_prec":77538,
+        "CV_median":0.3332607391,
+        "CV_q90":0.5641968408,
+        "CV_q75":0.4342194381,
+        "CV_q95":0.6616261046
+      },
+      "2":{
+        "median_abs_epsilon":0.369123009,
+        "variance_epsilon":0.6149352597,
+        "nr_prec":82463,
+        "CV_median":0.333305997,
+        "CV_q90":0.5683496648,
+        "CV_q75":0.4358435653,
+        "CV_q95":0.6679748235
+      },
+      "1":{
+        "median_abs_epsilon":0.369123009,
+        "variance_epsilon":0.6149352597,
+        "nr_prec":84500,
+        "CV_median":0.333305997,
+        "CV_q90":0.5683496648,
+        "CV_q75":0.4358435653,
+        "CV_q95":0.6679748235
+      }
+    },
+    "weighted_sum":null,
+    "color":"#8c564b",
+    "hover_text":"ProteoBench ID: DIA-NN_20241009_165616<br>Software tool: DIA-NN <br>Comment (private submission): ",
+    "scatter_size":20,
+    "comments":"",
+    "proteobench_version":"0.1.0",
+    "scan_window":13,
+    "quantification_method_DIANN":"QuantUMS high-precision",
+    "second_pass":false,
+    "protein_inference":null,
+    "predictors_library":{
+      "RT":"DIANN",
+      "IM":"DIANN",
+      "MS2_int":"DIANN"
+    },
+    "submission_comments":""
   }
 ]
