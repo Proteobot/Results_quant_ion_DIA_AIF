@@ -1,5 +1,5 @@
 [
-    {
+  {
     "id":"MaxQuant__20240122_180731",
     "software_name":"MaxQuant",
     "software_version":"1.5.3.30",
@@ -20,9 +20,9 @@
     "intermediate_hash":"0f03bdfc8011649377467d4ce7e4091324c629ff",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":5.0,
+    "max_mods":5,
     "min_precursor_charge":null,
-    "max_precursor_charge":7.0,
+    "max_precursor_charge":7,
     "median_abs_epsilon":0.3223912355,
     "nr_prec":44686,
     "is_temporary":false,
@@ -83,6 +83,118 @@
         "CV_q95":0.6058360224
       }
     },
-    "weighted_sum":0.3223912355
+    "weighted_sum":0.3223912355,
+    "color":null,
+    "hover_text":null,
+    "scatter_size":null,
+    "comments":null,
+    "proteobench_version":null,
+    "scan_window":null,
+    "quantification_method_DIANN":null,
+    "second_pass":null,
+    "protein_inference":null,
+    "predictors_library":null,
+    "submission_comments":null
+  },
+  {
+    "id":"DIA-NN_20241011_105247",
+    "software_name":"DIA-NN",
+    "software_version":"1.9.1",
+    "search_engine_version":"1.9.1",
+    "search_engine":"DIA-NN",
+    "ident_fdr_psm":null,
+    "ident_fdr_peptide":0.01,
+    "ident_fdr_protein":0.01,
+    "enable_match_between_runs":true,
+    "precursor_mass_tolerance":"18.664 ppm",
+    "precursor_mass_tolerance_unit":null,
+    "fragment_mass_tolerance":"18.664 ppm",
+    "fragment_mass_tolerance_unit":null,
+    "enzyme":"K*,R*",
+    "allowed_miscleavages":1,
+    "min_peptide_length":7,
+    "max_peptide_length":20,
+    "intermediate_hash":"10d12c9591959bc98428b0bfe1a7be6753afd36d",
+    "fixed_mods":"unimod4",
+    "variable_mods":"UniMod:35\/15.994915\/M,UniMod:1\/42.010565\/*n",
+    "max_mods":1,
+    "min_precursor_charge":2,
+    "max_precursor_charge":3,
+    "median_abs_epsilon":0.4836538338,
+    "nr_prec":79974,
+    "is_temporary":false,
+    "old_new":"new",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.3433173925,
+        "variance_epsilon":0.5047987211,
+        "nr_prec":43948,
+        "CV_median":0.3161706577,
+        "CV_q90":0.509048317,
+        "CV_q75":0.4001387045,
+        "CV_q95":0.5897845827
+      },
+      "5":{
+        "median_abs_epsilon":0.3977052481,
+        "variance_epsilon":0.6244252974,
+        "nr_prec":52013,
+        "CV_median":0.3188977168,
+        "CV_q90":0.5315273713,
+        "CV_q75":0.4104751942,
+        "CV_q95":0.6219333504
+      },
+      "4":{
+        "median_abs_epsilon":0.4586845632,
+        "variance_epsilon":0.7594739978,
+        "nr_prec":60007,
+        "CV_median":0.3197947146,
+        "CV_q90":0.5443722695,
+        "CV_q75":0.4160318437,
+        "CV_q95":0.6407529783
+      },
+      "3":{
+        "median_abs_epsilon":0.4836538338,
+        "variance_epsilon":0.7954475632,
+        "nr_prec":79974,
+        "CV_median":0.3232764854,
+        "CV_q90":0.5544114994,
+        "CV_q75":0.4227128029,
+        "CV_q95":0.6569537785
+      },
+      "2":{
+        "median_abs_epsilon":0.5121848818,
+        "variance_epsilon":0.8619897174,
+        "nr_prec":92872,
+        "CV_median":0.3235029632,
+        "CV_q90":0.5677958308,
+        "CV_q75":0.4271309772,
+        "CV_q95":0.6771676368
+      },
+      "1":{
+        "median_abs_epsilon":0.5121848818,
+        "variance_epsilon":0.8619897174,
+        "nr_prec":118692,
+        "CV_median":0.3235029632,
+        "CV_q90":0.5677958308,
+        "CV_q75":0.4271309772,
+        "CV_q95":0.6771676368
+      }
+    },
+    "weighted_sum":null,
+    "color":"#8c564b",
+    "hover_text":"ProteoBench ID: DIA-NN_20241011_105247<br>Software tool: DIA-NN <br>Comment (private submission): ",
+    "scatter_size":20,
+    "comments":"",
+    "proteobench_version":"0.1.0",
+    "scan_window":13,
+    "quantification_method_DIANN":"QuantUMS high-precision",
+    "second_pass":true,
+    "protein_inference":"Disabled",
+    "predictors_library":{
+      "RT":"DIANN",
+      "IM":"DIANN",
+      "MS2_int":"DIANN"
+    },
+    "submission_comments":""
   }
 ]
