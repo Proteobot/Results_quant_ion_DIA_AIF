@@ -195,7 +195,7 @@
       "IM":"DIANN",
       "MS2_int":"DIANN"
     },
-    "submission_comments":""
+    "submission_comments":"",
     "weighted_sum":0.3223912355,
     "color":null,
     "hover_text":null,
@@ -304,7 +304,7 @@
     "second_pass":null,
     "protein_inference":"ProteinProphet: --maxppmdiff 2000000 --minprob 0.5",
     "predictors_library":null,
-    "submission_comments":""
+    "submission_comments":"",
     "weighted_sum":0.3223912355,
     "color":null,
     "hover_text":null,
@@ -417,7 +417,7 @@
       "IM":"DIANN",
       "MS2_int":"DIANN"
     },
-    "submission_comments":""
+    "submission_comments":"",
     "weighted_sum":0.3223912355,
     "color":null,
     "hover_text":null,
@@ -530,7 +530,7 @@
       "IM":"DIANN",
       "MS2_int":"DIANN"
     },
-    "submission_comments":""
+    "submission_comments":"",
     "weighted_sum":0.3223912355,
     "color":null,
     "hover_text":null,
@@ -643,7 +643,7 @@
       "IM":"DIANN",
       "MS2_int":"DIANN"
     },
-    "submission_comments":""
+    "submission_comments":"",
     "weighted_sum":0.3223912355,
     "color":null,
     "hover_text":null,
