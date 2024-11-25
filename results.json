@@ -592,6 +592,110 @@
     "quantification_method":null
   },
   {
+    "id":"DIA-NN_20241121_161928",
+    "software_name":"DIA-NN",
+    "software_version":"1.9.2",
+    "search_engine_version":"1.9.2",
+    "search_engine":"DIA-NN",
+    "ident_fdr_psm":null,
+    "ident_fdr_peptide":0.01,
+    "ident_fdr_protein":0.01,
+    "enable_match_between_runs":true,
+    "precursor_mass_tolerance":"30.7607 ppm",
+    "precursor_mass_tolerance_unit":null,
+    "fragment_mass_tolerance":"30.7607 ppm",
+    "fragment_mass_tolerance_unit":null,
+    "enzyme":"K*,R*",
+    "allowed_miscleavages":1,
+    "min_peptide_length":7,
+    "max_peptide_length":30,
+    "intermediate_hash":"e7a56cec856e576ada77de24df34b2d31beb1b15",
+    "fixed_mods":"unimod4",
+    "variable_mods":"UniMod:35\/15.994915\/M,UniMod:1\/42.010565\/*n",
+    "max_mods":1,
+    "min_precursor_charge":1,
+    "max_precursor_charge":4,
+    "median_abs_epsilon":0.5178303793,
+    "nr_prec":91520,
+    "is_temporary":false,
+    "old_new":"new",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.3741447099,
+        "variance_epsilon":0.5693226565,
+        "nr_prec":54917,
+        "CV_median":0.3225663245,
+        "CV_q90":0.5398978693,
+        "CV_q75":0.4139405028,
+        "CV_q95":0.6333800361
+      },
+      "5":{
+        "median_abs_epsilon":0.4375461932,
+        "variance_epsilon":0.7265191909,
+        "nr_prec":63959,
+        "CV_median":0.3260709428,
+        "CV_q90":0.5658133906,
+        "CV_q75":0.4265415453,
+        "CV_q95":0.6695071943
+      },
+      "4":{
+        "median_abs_epsilon":0.5042873352,
+        "variance_epsilon":0.8996709215,
+        "nr_prec":71785,
+        "CV_median":0.3275481985,
+        "CV_q90":0.5791413173,
+        "CV_q75":0.4324425974,
+        "CV_q95":0.6898519591
+      },
+      "3":{
+        "median_abs_epsilon":0.5178303793,
+        "variance_epsilon":0.9194444708,
+        "nr_prec":91520,
+        "CV_median":0.3324923214,
+        "CV_q90":0.5897966852,
+        "CV_q75":0.4405758753,
+        "CV_q95":0.7067664844
+      },
+      "2":{
+        "median_abs_epsilon":0.5238752483,
+        "variance_epsilon":0.931143303,
+        "nr_prec":97003,
+        "CV_median":0.3326951929,
+        "CV_q90":0.5964012895,
+        "CV_q75":0.4429056057,
+        "CV_q95":0.7169194318
+      },
+      "1":{
+        "median_abs_epsilon":0.5238752483,
+        "variance_epsilon":0.931143303,
+        "nr_prec":99441,
+        "CV_median":0.3326951929,
+        "CV_q90":0.5964012895,
+        "CV_q75":0.4429056057,
+        "CV_q95":0.7169194318
+      }
+    },
+    "weighted_sum":null,
+    "color":"#8c564b",
+    "hover_text":"ProteoBench ID: DIA-NN_20241121_161928<br>Software tool: DIA-NN <br>Comment (private submission): ",
+    "scatter_size":20,
+    "comments":"",
+    "proteobench_version":"0.4.1.dev33+g213ac84",
+    "scan_window":13,
+    "quantification_method_DIANN":null,
+    "second_pass":false,
+    "protein_inference":"Isoforms",
+    "predictors_library":{
+      "RT":"DIANN",
+      "IM":"DIANN",
+      "MS2_int":"DIANN"
+    },
+    "submission_comments":"",
+    "quantification_method":"QuantUMS high-precision"
+    "submission_comments":"",
+    "quantification_method":null
+  },
+  {
     "id":"DIA-NN_20241119_164109",
     "software_name":"DIA-NN",
     "software_version":"1.9.2",
