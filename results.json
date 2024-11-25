@@ -83,19 +83,22 @@
         "CV_q95":0.6679748235
       }
     },
-    "weighted_sum":0.3223912355,
-    "color":null,
-    "hover_text":null,
-    "scatter_size":null,
-    "comments":null,
-    "proteobench_version":null,
-    "scan_window":null,
-    "quantification_method_DIANN":null,
-    "second_pass":null,
+    "weighted_sum":null,
+    "color":"#8c564b",
+    "hover_text":"ProteoBench ID: DIA-NN_20241009_165616<br>Software tool: DIA-NN <br>Comment (private submission): ",
+    "scatter_size":20,
+    "comments":"",
+    "proteobench_version":"0.1.0",
+    "scan_window":13,
+    "quantification_method_DIANN":"QuantUMS high-precision",
+    "second_pass":false,
     "protein_inference":null,
-    "predictors_library":null,
-    "submission_comments":null,
-    "quantification_method":null
+    "predictors_library":{
+      "RT":"DIANN",
+      "IM":"DIANN",
+      "MS2_int":"DIANN"
+    },
+    "submission_comments":""
   },
   {
     "id":"FragPipe (DIA-NN quant)_20241010_172625",
@@ -181,19 +184,18 @@
         "CV_q95":0.6503687212
       }
     },
-    "weighted_sum":0.3223912355,
-    "color":null,
-    "hover_text":null,
-    "scatter_size":null,
-    "comments":null,
-    "proteobench_version":null,
+    "weighted_sum":null,
+    "color":"#ff7f00",
+    "hover_text":"ProteoBench ID: FragPipe (DIA-NN quant)_20241010_172625<br>Software tool: FragPipe (DIA-NN quant) <br>Comment (private submission): ",
+    "scatter_size":20,
+    "comments":"",
+    "proteobench_version":"0.1.0",
     "scan_window":null,
-    "quantification_method_DIANN":null,
+    "quantification_method_DIANN":"Robust LC (high accuracy)",
     "second_pass":null,
-    "protein_inference":null,
+    "protein_inference":"ProteinProphet: --maxppmdiff 2000000 --minprob 0.5",
     "predictors_library":null,
-    "submission_comments":null,
-    "quantification_method":null
+    "submission_comments":""
   },
   {
     "id":"DIA-NN_20241011_103234",
@@ -280,18 +282,21 @@
       }
     },
     "weighted_sum":0.3223912355,
-    "color":null,
-    "hover_text":null,
-    "scatter_size":null,
-    "comments":null,
-    "proteobench_version":null,
-    "scan_window":null,
-    "quantification_method_DIANN":null,
-    "second_pass":null,
+    "color":"#8c564b",
+    "hover_text":"ProteoBench ID: DIA-NN_20241011_103234<br>Software tool: DIA-NN <br>Comment (private submission): ",
+    "scatter_size":20,
+    "comments":"",
+    "proteobench_version":"0.1.0",
+    "scan_window":13,
+    "quantification_method_DIANN":"QuantUMS high-precision",
+    "second_pass":false,
     "protein_inference":null,
-    "predictors_library":null,
-    "submission_comments":null,
-    "quantification_method":null
+    "predictors_library":{
+      "RT":"DIANN",
+      "IM":"DIANN",
+      "MS2_int":"DIANN"
+    },
+    "submission_comments":""
   },
   {
     "id":"DIA-NN_20241011_103919",
@@ -378,18 +383,21 @@
       }
     },
     "weighted_sum":0.3223912355,
-    "color":null,
-    "hover_text":null,
-    "scatter_size":null,
-    "comments":null,
-    "proteobench_version":null,
-    "scan_window":null,
-    "quantification_method_DIANN":null,
-    "second_pass":null,
+    "color":"#8c564b",
+    "hover_text":"ProteoBench ID: DIA-NN_20241011_103919<br>Software tool: DIA-NN <br>Comment (private submission): ",
+    "scatter_size":20,
+    "comments":"",
+    "proteobench_version":"0.1.0",
+    "scan_window":13,
+    "quantification_method_DIANN":"QuantUMS high-precision",
+    "second_pass":false,
     "protein_inference":null,
-    "predictors_library":null,
-    "submission_comments":null,
-    "quantification_method":null
+    "predictors_library":{
+      "RT":"DIANN",
+      "IM":"DIANN",
+      "MS2_int":"DIANN"
+    },
+    "submission_comments":""
   },
   {
     "id":"DIA-NN_20241011_104527",
@@ -476,18 +484,21 @@
       }
     },
     "weighted_sum":0.3223912355,
-    "color":null,
-    "hover_text":null,
-    "scatter_size":null,
-    "comments":null,
-    "proteobench_version":null,
-    "scan_window":null,
-    "quantification_method_DIANN":null,
-    "second_pass":null,
+    "color":"#8c564b",
+    "hover_text":"ProteoBench ID: DIA-NN_20241011_104527<br>Software tool: DIA-NN <br>Comment (private submission): ",
+    "scatter_size":20,
+    "comments":"",
+    "proteobench_version":"0.1.0",
+    "scan_window":13,
+    "quantification_method_DIANN":"QuantUMS high-precision",
+    "second_pass":false,
     "protein_inference":null,
-    "predictors_library":null,
-    "submission_comments":null,
-    "quantification_method":null
+    "predictors_library":{
+      "RT":"DIANN",
+      "IM":"DIANN",
+      "MS2_int":"DIANN"
+    },
+    "submission_comments":""
   },
   {
     "id":"DIA-NN_20241011_105247",
