@@ -89,16 +89,17 @@
     "scatter_size":20,
     "comments":"",
     "proteobench_version":"0.1.0",
-    "scan_window":13,
+    "scan_window":13.0,
     "quantification_method_DIANN":"QuantUMS high-precision",
-    "second_pass":false,
+    "second_pass":0.0,
     "protein_inference":null,
     "predictors_library":{
       "RT":"DIANN",
       "IM":"DIANN",
       "MS2_int":"DIANN"
     },
-    "submission_comments":""
+    "submission_comments":"",
+    "quantification_method":null
   },
   {
     "id":"FragPipe (DIA-NN quant)_20241010_172625",
@@ -195,7 +196,8 @@
     "second_pass":null,
     "protein_inference":"ProteinProphet: --maxppmdiff 2000000 --minprob 0.5",
     "predictors_library":null,
-    "submission_comments":""
+    "submission_comments":"",
+    "quantification_method":null
   },
   {
     "id":"DIA-NN_20241011_103234",
@@ -287,16 +289,17 @@
     "scatter_size":20,
     "comments":"",
     "proteobench_version":"0.1.0",
-    "scan_window":13,
+    "scan_window":13.0,
     "quantification_method_DIANN":"QuantUMS high-precision",
-    "second_pass":false,
+    "second_pass":0.0,
     "protein_inference":null,
     "predictors_library":{
       "RT":"DIANN",
       "IM":"DIANN",
       "MS2_int":"DIANN"
     },
-    "submission_comments":""
+    "submission_comments":"",
+    "quantification_method":null
   },
   {
     "id":"DIA-NN_20241011_103919",
@@ -388,16 +391,17 @@
     "scatter_size":20,
     "comments":"",
     "proteobench_version":"0.1.0",
-    "scan_window":13,
+    "scan_window":13.0,
     "quantification_method_DIANN":"QuantUMS high-precision",
-    "second_pass":false,
+    "second_pass":0.0,
     "protein_inference":null,
     "predictors_library":{
       "RT":"DIANN",
       "IM":"DIANN",
       "MS2_int":"DIANN"
     },
-    "submission_comments":""
+    "submission_comments":"",
+    "quantification_method":null
   },
   {
     "id":"DIA-NN_20241011_104527",
@@ -489,16 +493,17 @@
     "scatter_size":20,
     "comments":"",
     "proteobench_version":"0.1.0",
-    "scan_window":13,
+    "scan_window":13.0,
     "quantification_method_DIANN":"QuantUMS high-precision",
-    "second_pass":false,
+    "second_pass":0.0,
     "protein_inference":null,
     "predictors_library":{
       "RT":"DIANN",
       "IM":"DIANN",
       "MS2_int":"DIANN"
     },
-    "submission_comments":""
+    "submission_comments":"",
+    "quantification_method":null
   },
   {
     "id":"DIA-NN_20241011_105247",
@@ -587,7 +592,7 @@
     "weighted_sum":null,
     "color":"#8c564b",
     "hover_text":"ProteoBench ID: DIA-NN_20241011_105247<br>Software tool: DIA-NN <br>Comment (private submission): ",
-    "scatter_size":20.0,
+    "scatter_size":20,
     "comments":"",
     "proteobench_version":"0.1.0",
     "scan_window":13.0,
@@ -623,13 +628,13 @@
     "intermediate_hash":"e7a56cec856e576ada77de24df34b2d31beb1b15",
     "fixed_mods":"unimod4",
     "variable_mods":"UniMod:35\/15.994915\/M,UniMod:1\/42.010565\/*n",
-    "max_mods":1,
+    "max_mods":1.0,
     "min_precursor_charge":1,
-    "max_precursor_charge":4,
+    "max_precursor_charge":4.0,
     "median_abs_epsilon":0.5178303793,
     "nr_prec":91520,
     "is_temporary":false,
-    "old_new":"new",
+    "old_new":"old",
     "results":{
       "6":{
         "median_abs_epsilon":0.3741447099,
@@ -692,9 +697,9 @@
     "scatter_size":20,
     "comments":"",
     "proteobench_version":"0.4.1.dev33+g213ac84",
-    "scan_window":13,
+    "scan_window":13.0,
     "quantification_method_DIANN":null,
-    "second_pass":false,
+    "second_pass":0.0,
     "protein_inference":"Isoforms",
     "predictors_library":{
       "RT":"DIANN",
@@ -725,13 +730,13 @@
     "intermediate_hash":"f2ee93a04272f9678ce83a6866b7ef52a54de0b0",
     "fixed_mods":"unimod4",
     "variable_mods":"UniMod:35\/15.994915\/M,UniMod:1\/42.010565\/*n",
-    "max_mods":1,
+    "max_mods":1.0,
     "min_precursor_charge":1,
-    "max_precursor_charge":4,
+    "max_precursor_charge":4.0,
     "median_abs_epsilon":0.4159844838,
     "nr_prec":52220,
     "is_temporary":false,
-    "old_new":"new",
+    "old_new":"old",
     "results":{
       "6":{
         "median_abs_epsilon":0.4159844838,
@@ -794,9 +799,9 @@
     "scatter_size":20,
     "comments":"DIA-NN v1.9.2 using conservative NNs and QuantUMS (High Precision)",
     "proteobench_version":"0.5.0",
-    "scan_window":13,
+    "scan_window":13.0,
     "quantification_method_DIANN":null,
-    "second_pass":false,
+    "second_pass":0.0,
     "protein_inference":"Protein_names",
     "predictors_library":{
       "RT":"DIANN",
@@ -827,13 +832,13 @@
     "intermediate_hash":"c02254d4bbdbe1748030761457578a3851e6b1e8",
     "fixed_mods":"unimod4",
     "variable_mods":"UniMod:35\/15.994915\/M",
-    "max_mods":1,
+    "max_mods":1.0,
     "min_precursor_charge":2,
-    "max_precursor_charge":3,
+    "max_precursor_charge":3.0,
     "median_abs_epsilon":0.6330886811,
     "nr_prec":95856,
     "is_temporary":false,
-    "old_new":"new",
+    "old_new":"old",
     "results":{
       "6":{
         "median_abs_epsilon":0.4416279388,
@@ -896,9 +901,9 @@
     "scatter_size":20,
     "comments":"",
     "proteobench_version":"0.4.1.dev33+g213ac84",
-    "scan_window":13,
+    "scan_window":13.0,
     "quantification_method_DIANN":null,
-    "second_pass":false,
+    "second_pass":0.0,
     "protein_inference":null,
     "predictors_library":{
       "RT":"DIANN",
@@ -929,13 +934,13 @@
     "intermediate_hash":"c02254d4bbdbe1748030761457578a3851e6b1e8",
     "fixed_mods":"unimod4",
     "variable_mods":"UniMod:35\/15.994915\/M",
-    "max_mods":1,
+    "max_mods":1.0,
     "min_precursor_charge":2,
-    "max_precursor_charge":3,
+    "max_precursor_charge":3.0,
     "median_abs_epsilon":0.6330886811,
     "nr_prec":95856,
     "is_temporary":false,
-    "old_new":"new",
+    "old_new":"old",
     "results":{
       "6":{
         "median_abs_epsilon":0.4416279388,
@@ -998,14 +1003,116 @@
     "scatter_size":20,
     "comments":"",
     "proteobench_version":"0.5.1",
-    "scan_window":13,
+    "scan_window":13.0,
     "quantification_method_DIANN":null,
-    "second_pass":false,
+    "second_pass":0.0,
     "protein_inference":null,
     "predictors_library":{
       "RT":"DIANN",
       "IM":"DIANN",
       "MS2_int":"DIANN"
+    },
+    "submission_comments":"",
+    "quantification_method":"QuantUMS high-precision"
+  },
+  {
+    "id":"DIA-NN_20241126_084240",
+    "software_name":"DIA-NN",
+    "software_version":"1.9.2",
+    "search_engine_version":"1.9.2",
+    "search_engine":"DIA-NN",
+    "ident_fdr_psm":null,
+    "ident_fdr_peptide":0.01,
+    "ident_fdr_protein":0.01,
+    "enable_match_between_runs":true,
+    "precursor_mass_tolerance":"10.0 ppm",
+    "precursor_mass_tolerance_unit":null,
+    "fragment_mass_tolerance":"20.0 ppm",
+    "fragment_mass_tolerance_unit":null,
+    "enzyme":"K*,R*",
+    "allowed_miscleavages":1,
+    "min_peptide_length":6,
+    "max_peptide_length":30,
+    "intermediate_hash":"662f45588d26c3c55b99ee9f8f6e5f0c2dd80389",
+    "fixed_mods":"unimod4",
+    "variable_mods":"UniMod:35\/15.994915\/M,UniMod:1\/42.010565\/*n",
+    "max_mods":1,
+    "min_precursor_charge":1,
+    "max_precursor_charge":4,
+    "median_abs_epsilon":0.5450429107,
+    "nr_prec":89628,
+    "is_temporary":false,
+    "old_new":"new",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.395883929,
+        "variance_epsilon":0.6125653075,
+        "nr_prec":54132,
+        "CV_median":0.3262409351,
+        "CV_q90":0.5498157141,
+        "CV_q75":0.421734639,
+        "CV_q95":0.6426241251
+      },
+      "5":{
+        "median_abs_epsilon":0.4628041809,
+        "variance_epsilon":0.7868467801,
+        "nr_prec":62924,
+        "CV_median":0.3296518698,
+        "CV_q90":0.5768139278,
+        "CV_q75":0.4348005287,
+        "CV_q95":0.681212017
+      },
+      "4":{
+        "median_abs_epsilon":0.5325998735,
+        "variance_epsilon":0.9846682442,
+        "nr_prec":70683,
+        "CV_median":0.3309160411,
+        "CV_q90":0.5904033062,
+        "CV_q75":0.4404628936,
+        "CV_q95":0.7024810717
+      },
+      "3":{
+        "median_abs_epsilon":0.5450429107,
+        "variance_epsilon":0.9998216137,
+        "nr_prec":89628,
+        "CV_median":0.3358450237,
+        "CV_q90":0.6022194113,
+        "CV_q75":0.449228249,
+        "CV_q95":0.7175358431
+      },
+      "2":{
+        "median_abs_epsilon":0.5513552297,
+        "variance_epsilon":1.0124469882,
+        "nr_prec":95088,
+        "CV_median":0.3360544577,
+        "CV_q90":0.608383515,
+        "CV_q75":0.4515868663,
+        "CV_q95":0.7277177935
+      },
+      "1":{
+        "median_abs_epsilon":0.5513552297,
+        "variance_epsilon":1.0124469882,
+        "nr_prec":97360,
+        "CV_median":0.3360544577,
+        "CV_q90":0.608383515,
+        "CV_q75":0.4515868663,
+        "CV_q95":0.7277177935
+      }
+    },
+    "weighted_sum":null,
+    "color":"#8c564b",
+    "hover_text":"ProteoBench ID: DIA-NN_20241126_084240<br>Software tool: DIA-NN <br>Comment (private submission): ",
+    "scatter_size":20,
+    "comments":"",
+    "proteobench_version":"0.5.1",
+    "scan_window":13,
+    "quantification_method_DIANN":null,
+    "second_pass":false,
+    "protein_inference":null,
+    "predictors_library":{
+      "RT":"User defined speclib",
+      "IM":"User defined speclib",
+      "MS2_int":"User defined speclib"
     },
     "submission_comments":"",
     "quantification_method":"QuantUMS high-precision"
