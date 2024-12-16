@@ -26,7 +26,7 @@
     "median_abs_epsilon":0.2239574958,
     "nr_prec":89399,
     "is_temporary":false,
-    "old_new":"new",
+    "old_new":"old",
     "results":{
       "6":{
         "median_abs_epsilon":0.1578118483,
@@ -105,6 +105,116 @@
       "MS2_int":"DIANN"
     },
     "submission_comments":"\n\nDataset URL: https:\/\/proteobench.cubimed.rub.de\/datasets\/0132a468ec6ae51a527d82560ff4a40f832f975c\/",
-    "quantification_method":"QuantUMS high-precision"
+    "quantification_method":"QuantUMS high-precision",
+    "mean_abs_epsilon":null
+  },
+  {
+    "id":"DIA-NN_20241216_121542",
+    "software_name":"DIA-NN",
+    "software_version":"1.9.2",
+    "search_engine_version":"1.9.2",
+    "search_engine":"DIA-NN",
+    "ident_fdr_psm":null,
+    "ident_fdr_peptide":0.01,
+    "ident_fdr_protein":0.01,
+    "enable_match_between_runs":true,
+    "precursor_mass_tolerance":"[-14.3505 ppm, 14.3505 ppm]",
+    "precursor_mass_tolerance_unit":null,
+    "fragment_mass_tolerance":"[-14.3505 ppm, 14.3505 ppm]",
+    "fragment_mass_tolerance_unit":null,
+    "enzyme":"Trypsin\/P",
+    "allowed_miscleavages":1,
+    "min_peptide_length":6,
+    "max_peptide_length":30,
+    "intermediate_hash":"fdc2fffd886fe2a36722bfa85a418b09e6bc69a9",
+    "fixed_mods":"unimod4",
+    "variable_mods":"UniMod:35\/15.994915\/M,UniMod:1\/42.010565\/*n",
+    "max_mods":1,
+    "min_precursor_charge":1,
+    "max_precursor_charge":4,
+    "median_abs_epsilon":0.216414515,
+    "nr_prec":89399,
+    "is_temporary":false,
+    "old_new":"new",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.1527792825,
+        "mean_abs_epsilon":0.4018359714,
+        "variance_epsilon":0.6062311304,
+        "nr_prec":53317,
+        "CV_median":0.3228747775,
+        "CV_q90":0.5462058813,
+        "CV_q75":0.4198096886,
+        "CV_q95":0.6391173411
+      },
+      "5":{
+        "median_abs_epsilon":0.1793603711,
+        "mean_abs_epsilon":0.4681554341,
+        "variance_epsilon":0.7802354978,
+        "nr_prec":62523,
+        "CV_median":0.3266180874,
+        "CV_q90":0.5751287725,
+        "CV_q75":0.4330729323,
+        "CV_q95":0.6801408179
+      },
+      "4":{
+        "median_abs_epsilon":0.2063594224,
+        "mean_abs_epsilon":0.5409633572,
+        "variance_epsilon":0.9889749381,
+        "nr_prec":70284,
+        "CV_median":0.3282720218,
+        "CV_q90":0.5895599768,
+        "CV_q75":0.4391862405,
+        "CV_q95":0.7033577588
+      },
+      "3":{
+        "median_abs_epsilon":0.216414515,
+        "mean_abs_epsilon":0.5546271765,
+        "variance_epsilon":1.0101768198,
+        "nr_prec":89399,
+        "CV_median":0.3332608464,
+        "CV_q90":0.6024596823,
+        "CV_q75":0.4481070849,
+        "CV_q95":0.7228253729
+      },
+      "2":{
+        "median_abs_epsilon":0.220561152,
+        "mean_abs_epsilon":0.5616000099,
+        "variance_epsilon":1.026588991,
+        "nr_prec":94847,
+        "CV_median":0.3335437579,
+        "CV_q90":0.6081308792,
+        "CV_q75":0.4504473529,
+        "CV_q95":0.7334674959
+      },
+      "1":{
+        "median_abs_epsilon":0.220561152,
+        "mean_abs_epsilon":0.5616000099,
+        "variance_epsilon":1.026588991,
+        "nr_prec":97072,
+        "CV_median":0.3335437579,
+        "CV_q90":0.6081308792,
+        "CV_q75":0.4504473529,
+        "CV_q95":0.7334674959
+      }
+    },
+    "weighted_sum":null,
+    "color":"#8c564b",
+    "hover_text":"ProteoBench ID: DIA-NN_20241216_121542<br>Software tool: DIA-NN <br>Comment (private submission): ",
+    "scatter_size":20,
+    "comments":"",
+    "proteobench_version":"0.5.8",
+    "scan_window":13,
+    "quantification_method_DIANN":null,
+    "second_pass":false,
+    "protein_inference":null,
+    "predictors_library":{
+      "RT":"DIANN",
+      "IM":"DIANN",
+      "MS2_int":"DIANN"
+    },
+    "submission_comments":"\n\nDataset URL: https:\/\/proteobench.cubimed.rub.de\/datasets\/fdc2fffd886fe2a36722bfa85a418b09e6bc69a9\/",
+    "quantification_method":"QuantUMS high-accuracy",
+    "mean_abs_epsilon":0.5546271765
   }
 ]
