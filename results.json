@@ -26,7 +26,7 @@
     "median_abs_epsilon":0.2239574958,
     "nr_prec":89399,
     "is_temporary":false,
-    "old_new":"new",
+    "old_new":"old",
     "results":{
       "6":{
         "median_abs_epsilon":0.1578118483,
@@ -105,6 +105,112 @@
       "MS2_int":"DIANN"
     },
     "submission_comments":"\n\nDataset URL: https:\/\/proteobench.cubimed.rub.de\/datasets\/0132a468ec6ae51a527d82560ff4a40f832f975c\/",
-    "quantification_method":"QuantUMS high-precision"
+    "quantification_method":"QuantUMS high-precision",
+    "mean_abs_epsilon":null
+  },
+  {
+    "id":"Spectronaut_20241216_122230",
+    "software_name":"Spectronaut",
+    "software_version":"19.0.240606.62635",
+    "search_engine_version":"19.0.240606.62635",
+    "search_engine":"Spectronaut",
+    "ident_fdr_psm":0.01,
+    "ident_fdr_peptide":null,
+    "ident_fdr_protein":0.01,
+    "enable_match_between_runs":null,
+    "precursor_mass_tolerance":"[-40 ppm, 40 ppm]",
+    "precursor_mass_tolerance_unit":null,
+    "fragment_mass_tolerance":"[-40 ppm, 40 ppm]",
+    "fragment_mass_tolerance_unit":null,
+    "enzyme":"Trypsin\/P",
+    "allowed_miscleavages":2,
+    "min_peptide_length":7,
+    "max_peptide_length":52,
+    "intermediate_hash":"809d92711404fbf1022c6da297ff68185c33467c",
+    "fixed_mods":"Carbamidomethyl (C)",
+    "variable_mods":"Acetyl (Protein N-term), Oxidation (M)",
+    "max_mods":5,
+    "min_precursor_charge":null,
+    "max_precursor_charge":null,
+    "median_abs_epsilon":0.2187518742,
+    "nr_prec":100839,
+    "is_temporary":false,
+    "old_new":"new",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.1577610338,
+        "mean_abs_epsilon":0.5287456828,
+        "variance_epsilon":1.166299119,
+        "nr_prec":68521,
+        "CV_median":0.1636634196,
+        "CV_q90":0.4289874358,
+        "CV_q75":0.2659543805,
+        "CV_q95":0.5772475031
+      },
+      "5":{
+        "median_abs_epsilon":0.1850510971,
+        "mean_abs_epsilon":0.6671251906,
+        "variance_epsilon":1.836565701,
+        "nr_prec":78135,
+        "CV_median":0.1699957418,
+        "CV_q90":0.4757633402,
+        "CV_q75":0.2829023713,
+        "CV_q95":0.6483940886
+      },
+      "4":{
+        "median_abs_epsilon":0.2130217182,
+        "mean_abs_epsilon":0.8317272724,
+        "variance_epsilon":2.9379688121,
+        "nr_prec":85891,
+        "CV_median":0.1723430797,
+        "CV_q90":0.492218289,
+        "CV_q75":0.2895168718,
+        "CV_q95":0.6716006894
+      },
+      "3":{
+        "median_abs_epsilon":0.2187518742,
+        "mean_abs_epsilon":0.8482672235,
+        "variance_epsilon":3.0351131863,
+        "nr_prec":100839,
+        "CV_median":0.1745094134,
+        "CV_q90":0.4995187535,
+        "CV_q75":0.2944180514,
+        "CV_q95":0.6803618181
+      },
+      "2":{
+        "median_abs_epsilon":0.2204887878,
+        "mean_abs_epsilon":0.8519459294,
+        "variance_epsilon":3.059735398,
+        "nr_prec":103290,
+        "CV_median":0.17504973,
+        "CV_q90":0.504383649,
+        "CV_q75":0.2961085063,
+        "CV_q95":0.6873260835
+      },
+      "1":{
+        "median_abs_epsilon":0.2204887878,
+        "mean_abs_epsilon":0.8519459294,
+        "variance_epsilon":3.059735398,
+        "nr_prec":104052,
+        "CV_median":0.17504973,
+        "CV_q90":0.504383649,
+        "CV_q75":0.2961085063,
+        "CV_q95":0.6873260835
+      }
+    },
+    "weighted_sum":null,
+    "color":"#bcbd22",
+    "hover_text":"ProteoBench ID: Spectronaut_20241216_122230<br>Software tool: Spectronaut <br>Comment (private submission): ",
+    "scatter_size":20,
+    "comments":"",
+    "proteobench_version":"0.5.8",
+    "scan_window":"Dynamic",
+    "quantification_method_DIANN":null,
+    "second_pass":"directDIA+ (Deep)",
+    "protein_inference":"IDPicker",
+    "predictors_library":"False",
+    "submission_comments":"\n\nDataset URL: https:\/\/proteobench.cubimed.rub.de\/datasets\/809d92711404fbf1022c6da297ff68185c33467c\/",
+    "quantification_method":"MS2",
+    "mean_abs_epsilon":0.8482672235
   }
 ]
